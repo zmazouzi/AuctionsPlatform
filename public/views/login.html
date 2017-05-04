@@ -1,0 +1,22 @@
+
+
+<h1> Login ! </h1>
+
+
+<div ng-controller="loginCTRL" >
+
+    <form ng-submit="login()" >
+        <p>username : </p>
+        <input type="text" ng-model="username"> <br>
+        <p>password : </p>
+        <input type="text" ng-model="password"> <br>
+        <input type="submit">
+
+    </form>
+    <p>{{ message}}</p>
+    <p> {{success}}</p>
+    <p>{{storage}}</p>
+    <p> {{lstatus}}</p>
+
+
+</div>
